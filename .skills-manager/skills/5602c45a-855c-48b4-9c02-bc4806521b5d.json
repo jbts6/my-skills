@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5602c45a-855c-48b4-9c02-bc4806521b5d",
+  "path": "prd-to-plan",
+  "path_key": "prd-to-plan",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "mattpocock/skills/prd-to-plan",
+    "subpath": "skills",
+    "branch": null
+  }
+}

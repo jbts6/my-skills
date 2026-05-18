@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "26f9aef8-67b7-48fb-8d16-d1c205d759a8",
+  "name": "Plan",
+  "description": "做计划",
+  "icon": "notebook-pen",
+  "sort_order": 999
+}

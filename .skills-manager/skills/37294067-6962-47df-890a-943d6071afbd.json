@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37294067-6962-47df-890a-943d6071afbd",
+  "path": "godot-gdscript-patterns",
+  "path_key": "godot-gdscript-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/godot-gdscript-patterns",
+    "subpath": "plugins\\game-development\\skills\\godot-gdscript-patterns",
+    "branch": null
+  }
+}

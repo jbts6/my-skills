@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5c5a0b9b-c905-4166-8467-49d0f209c1b4",
+  "path": "write-a-prd",
+  "path_key": "write-a-prd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "mattpocock/skills/write-a-prd",
+    "subpath": "skills",
+    "branch": null
+  }
+}

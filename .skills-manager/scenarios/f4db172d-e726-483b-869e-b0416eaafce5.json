@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "f4db172d-e726-483b-869e-b0416eaafce5",
+  "name": "Grill",
+  "description": "简单事项",
+  "icon": "brain",
+  "sort_order": 999
+}
