@@ -2,9 +2,11 @@
   "schema_version": 1,
   "scenario_id": "54ec31cd-53c7-42f0-8ff1-e2bd792af061",
   "skill_id": "49215d7e-03c4-487b-8c55-caa0ce881de9",
-  "sort_order": 1,
+  "sort_order": 0,
   "tools": {
     "deepcode": false,
+    "deepseektui": true,
+    "gemini_cli": true,
     "opencode": false,
     "pi": false
   }

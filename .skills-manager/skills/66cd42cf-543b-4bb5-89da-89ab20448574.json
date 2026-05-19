@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "66cd42cf-543b-4bb5-89da-89ab20448574",
+  "path": "gh-cli",
+  "path_key": "gh-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/gh-cli",
+    "subpath": "skills",
+    "branch": null
+  }
+}
