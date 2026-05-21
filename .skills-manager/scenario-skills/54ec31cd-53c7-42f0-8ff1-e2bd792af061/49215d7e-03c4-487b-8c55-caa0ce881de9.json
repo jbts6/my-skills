@@ -7,7 +7,7 @@
     "deepcode": false,
     "deepseektui": true,
     "gemini_cli": true,
-    "opencode": false,
+    "opencode": true,
     "pi": false
   }
 }
