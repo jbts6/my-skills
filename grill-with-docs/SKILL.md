@@ -1,19 +1,45 @@
 ---
 name: grill-with-docs
-description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.
+description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions, with round-planned questions and sub-agent review before user-facing output.
 ---
 
 <what-to-do>
 
 Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
 
-Ask the questions one at a time, waiting for feedback on each question before continuing.
+Before asking the user anything, plan the round first. Every round must include complete concept decomposition, scenario stress test, solution matrix, recommendation, and 1-4 remaining candidate questions.
+
+Ask one round at a time, waiting for feedback on the round's primary question before continuing. Do not jump straight to the question without the round write-up.
+
+Before showing any round to the user, send the complete draft to a sub-agent reviewer. Only surface the reviewer-approved version. If the review asks for changes, revise the round and re-review it before continuing.
 
 If a question can be answered by exploring the codebase, explore the codebase instead.
 
 </what-to-do>
 
 <supporting-info>
+
+## Round shape
+
+For every round:
+
+- Start with a clear round label like `## Q1 — ...`
+- Ground the round in evidence first when code or docs can answer part of it
+- Make the concept decomposition complete and explicit
+- Stress-test with concrete edge-case scenarios
+- Compare options in a compact matrix. If there is only one viable path, still use a one-row matrix so the decision remains explicit.
+- State the recommendation plainly and explain why
+- End with 1-4 follow-up questions or fallback branches, ordered by priority
+- Split coupled decisions into separate rounds instead of hiding them in one long question
+
+## Review gate
+
+The round draft must be reviewed by a sub-agent before user-facing output.
+
+- Review the full round, not just the final question
+- Check for missing branches, weak evidence, undefined terms, and hidden assumptions
+- Only emit the post-review content to the user
+- Never show the unreviewed draft as the answer
 
 ## Domain awareness
 
