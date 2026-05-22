@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7fc757a-6226-4159-a703-52644383f73a",
+  "path": "grill-rounds",
+  "path_key": "grill-rounds",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jbts6/claude-skills",
+    "subpath": "grill-rounds",
+    "branch": null
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scenario_id": "54ec31cd-53c7-42f0-8ff1-e2bd792af061",
-  "skill_id": "492f1788-7720-40e2-b851-399f26e31fbb",
+  "skill_id": "e7fc757a-6226-4159-a703-52644383f73a",
   "sort_order": 1,
   "tools": {
     "deepcode": true,
